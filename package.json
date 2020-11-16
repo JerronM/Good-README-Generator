@@ -1,0 +1,29 @@
+{
+  "name": "readme-generastor",
+  "version": "1.0",
+  "description": "Good README Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JerronM/Good-README-Generator.git"
+  },
+  "keywords": [
+    "Good",
+    "Readme",
+    "Generator"
+  ],
+  "author": "Jerron McGinnis",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.0.0",
+    "inquirer": "^6.5.2"
+  },
+  "bugs": {
+    "url": "https://github.com/JerronM/Good-README-Generator/issues"
+  },
+  "homepage": "https://github.com/JerronM/Good-README-Generator#readme"
+}

@@ -24,14 +24,15 @@ I WANT a README generator
 SO THAT can quickly create a professional README for a new project
 ```
 
-## Screenshots
-
-
 
 ## Demo
-<iframe src="https://drive.google.com/file/d/1uTVNbJX3xFrjLgUv1Exnj0F98Z_juYr0/preview" width="640" height="480"></iframe>
+<img src="https://github.com/JerronM/Good-README-Generator/blob/main/misc/demo.gif?raw=true">
 
+
+## Screenshots
+<img src="https://github.com/JerronM/Good-README-Generator/blob/main/misc/screenshot1.png?raw=true">
+<img src="https://github.com/JerronM/Good-README-Generator/blob/main/misc/screenshot2.png?raw=true">
 
 
 ## Links
-Repo: 
+Repo: https://github.com/JerronM/Good-README-Generator

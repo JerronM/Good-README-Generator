@@ -26,7 +26,7 @@ SO THAT can quickly create a professional README for a new project
 
 
 ## Demo
-<img src="https://github.com/JerronM/Good-README-Generator/blob/main/misc/demo.gif?raw=true">
+<a href="https://drive.google.com/file/d/1uTVNbJX3xFrjLgUv1Exnj0F98Z_juYr0/view"><img src="https://github.com/JerronM/Good-README-Generator/blob/main/misc/demo.gif?raw=true"><a>
 
 
 ## Screenshots

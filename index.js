@@ -1,10 +1,10 @@
-const inquirer = require('inquirer'); 
+let inquirer = require('inquirer'); 
 var fs = require('fs');
-const path = require('path');
-const generateMarkdown = require('./utils/generateMarkdown');
+let path = require('path');
+let generateMarkdown = require('./utils/generateMarkdown');
 
 
-const questions = [
+let questions = [
 
     {
         name: 'title',
@@ -61,24 +61,20 @@ const questions = [
     },
 ];
 
-// function to write README file
 function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(),fileName), data)
 }
 
-
-// function to initialize program
 function init() {
     inquirer
     .prompt (questions)
 .then ((data) => {
     console.log("README.md has been created successfully ");
-    writeToFile ("README.md", generateMarkdown({...data}))
+    writeToFile ("NEWREADME.md", generateMarkdown({...data}))
 }).catch((err)=>{
     console.log("problem with inquirer.prompt");
     console.log(err);
 })
 }
 
-// function call to initialize program
 init();
